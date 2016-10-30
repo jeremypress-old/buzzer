@@ -1,0 +1,47 @@
+.color-button {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border: none;
+    margin: 20px;
+}
+
+button:focus {
+    outline:none;
+}
+
+.clicked {
+    border: 5px solid black;
+}
+
+#blue {
+    background-color: #2196F3;
+}
+
+#red {
+    background-color: #F44336;
+}
+
+#green {
+    background-color: #4CAF50;
+}
+
+
+#yellow {
+    background-color: #FFEB3B;
+}
+
+
+#buzz {
+    border: none;
+    background-color: #D3D3D3;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    font-family: 'roboto', sans-serif;
+    font-size: 2em;
+}
+
+#buzz:active {
+    background-color: #9E9E9E;
+}

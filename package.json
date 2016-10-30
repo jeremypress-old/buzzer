@@ -1,0 +1,18 @@
+{
+  "name": "buzzer",
+  "version": "1.0.0",
+  "description": "jeopardy/lifx buzzer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jerry",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "lodash.throttle": "^4.1.1",
+    "request": "^2.76.0"
+  }
+}
