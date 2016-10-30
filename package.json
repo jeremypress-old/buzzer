@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "lodash.throttle": "^4.1.1",

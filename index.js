@@ -3,9 +3,9 @@ var express = require('express');
 var app = express();
 var request = require('request');
 var bodyParser = require('body-parser')
+require('dotenv').load();
 
 
-console.log(process.env.LIFX)
 // Setup
 // setup template engine
 app.set('view engine', 'ejs');
